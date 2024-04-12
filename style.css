@@ -1,4 +1,4 @@
-.pink {
+.text-box > h3:first-child {
     color: pink;
 }
 
@@ -6,14 +6,18 @@
     color: grey;
 }
 
-.red {
+/* div > p:first-child {
     color: red;
-}
+} */
 
-.green {
-    color: green;
+div + div > p {
+    color: red;
 }
 
 .yellow {
     color: yellow;
+}
+
+div + h3 + p {
+    color: green;
 }
